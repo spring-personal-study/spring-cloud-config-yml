@@ -1,0 +1,6 @@
+token:
+  expiration_time: 86400000
+  secret: secretusertoken5678prodsecretusertoken5678prodsecretusertoken5678prodsecretusertoken5678prodsecretusertoken5678prodsecretusertoken5678prodsecretusertoken5678prodsecretusertoken5678prod
+
+gateway:
+  ip: localhost
