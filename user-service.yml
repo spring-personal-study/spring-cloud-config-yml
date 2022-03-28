@@ -10,4 +10,4 @@ spring:
     driver-class-name: org.h2.Driver
     url: jdbc:h2:mem:testdb;MODE=MySQL;DB_CLOSE_DELAY=-1
     username: sa
-    password: '{cipher}2474232d5e4f6050d0f3a6ebf0f8997dedf6f2a1eea8532df7c4955e1e0c3862' # 평문 1234
+    password: '{cipher}2474232d5e4f6050d0f3a6ebf0f8997dedf6f2a1eea8532df7c4955e1e0c3862' # 평문 1234. cipher를 붙여야 실사용시 복호화된다.
