@@ -1,6 +1,6 @@
 token:
   expiration_time: 86400000
-  secret: secretusertoken5678prodsecretusertoken5678prodsecretusertoken5678prodsecretusertoken5678prodsecretusertoken5678prodsecretusertoken5678prodsecretusertoken5678prodsecretusertoken5678prod
+  secret: secretusertoken5678secretusertoken5678secretusertoken5678secretusertoken5678secretusertoken5678secretusertoken5678secretusertoken5678secretusertoken5678
 
 gateway:
   ip: localhost
@@ -12,5 +12,5 @@ spring:
     username: sa
     password: '{cipher}4f356387d8b1a2e0eda1e17c70cf4ea94ab3d067f2c94fa9997d850358957d1a' # 평문 1234. cipher를 붙여야 실사용시 복호화된다.
 
-order_service:
-  url: http://localhost:8080/order-service/%s/orders
+order_service: 
+  url: http://ORDER-SERVICE/order-service/%s/orders #localhost:8080 대신 CONFIG 어플리케이션은 GATEWAY의 ORDER-SERVICE 를 가져와 쓸 수 있다.
