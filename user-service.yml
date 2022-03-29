@@ -11,3 +11,6 @@ spring:
     url: jdbc:h2:mem:testdb;MODE=MySQL;DB_CLOSE_DELAY=-1
     username: sa
     password: '{cipher}4f356387d8b1a2e0eda1e17c70cf4ea94ab3d067f2c94fa9997d850358957d1a' # 평문 1234. cipher를 붙여야 실사용시 복호화된다.
+
+order_service:
+  url: http://localhost:8080/order-service/%s/orders
