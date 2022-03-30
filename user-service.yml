@@ -14,3 +14,5 @@ spring:
 
 order_service: 
   url: http://ORDER-SERVICE/order-service/%s/orders #localhost:8080 대신 CONFIG 어플리케이션은 GATEWAY의 ORDER-SERVICE 를 가져와 쓸 수 있다.
+  exception:
+    orders_is_empty: User's orders is empty.
